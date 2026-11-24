@@ -13,6 +13,9 @@ from src.relationships.validate_problem_solving_review import (
     main as validate_problem_solving_review,
 )
 from src.graph.build_dependency_graph import main as build_dependency_graph
+from src.evaluation.evaluate_dependency_graph import (
+    evaluate_dependency_graph,
+)
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -108,6 +111,7 @@ def run_project():
             validate_problem_solving_review,
         ),
         ("10. Build dependency graph", build_dependency_graph),
+        ("11. Evaluate dependency graph", evaluate_dependency_graph),
     ]
 
     for stage_name, stage_function in stages:

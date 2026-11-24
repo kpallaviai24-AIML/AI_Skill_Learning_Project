@@ -16,6 +16,7 @@ def test_pipeline_calls_all_stages_in_order(monkeypatch):
         "validate_prerequisites",
         "validate_problem_solving_review",
         "build_dependency_graph",
+        "evaluate_dependency_graph",
     ]
 
     for name in stage_names:
