@@ -74,3 +74,23 @@ Do not approve prerequisite edges based only on these process descriptions.
 
 ## Research status
 Initial source review completed. More curriculum, training-standard, or expert evidence is required before adding approved problem-solving prerequisite edges.
+
+## Source 4: ASQ Eight Disciplines (8D)
+
+Title: Eight Disciplines 8D
+
+URL: https://asq.org/quality-resources/eight-disciplines-8d
+
+### Relevant process stages
+- D2: Define and describe the problem.
+- D4: Determine, identify, and verify root causes.
+- D5: Choose and verify permanent corrections.
+- D6: Implement and validate corrective actions.
+
+ASQ states that the 8D steps build on one another and are followed in sequence.
+
+### Proposed relationship interpretation
+The 8D framework supports the order of these activities within its specific problem-solving process. It does not establish that the corresponding competencies are universal educational prerequisites.
+
+### Review decision
+Two candidate workflow relationships will be recorded separately for expert review. Both remain needs_review.
